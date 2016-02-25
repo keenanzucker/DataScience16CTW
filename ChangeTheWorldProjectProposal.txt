@@ -1,0 +1,42 @@
+﻿Team Members:
+James Jang and Keenan Zucker
+
+
+Main Idea:
+One of the main prediction we want to make with the earthquake data is predicting the magnitude and the location of future earthquakes given our dataset. Our dataset contains several different categories of data about each earthquake it detected, such as longitude/latitude, depth, magnitude, place, error metrics, time, and gap. 
+
+
+MVP:
+Predictive Model that tells you the magnitude of an earthquake given the location and time. This will come in the form of a tool in which can input certain values and will be returned the magnitude. 
+
+
+Stretch Goals:
+Our stretch goals include an interactive map that has visualization of earthquakes as well as our tool built in. Another stretch goal we have is incorporating population of the location of the earthquake so we can access the fatality of the predicted earthquakes or damage to the infrastructure. There is another dataset which contains information about damage and injuries and tsunamis from significant earthquakes over the last 4000 years, which could be interesting to incorporate as well. 
+
+
+Change the world:
+This project will hopefully change the world by generating a way to help earthquake disaster preparation. Currently, for the average household that lives near fault lines has no warning when earthquakes strike. There are guidelines for house preparation, but if there was a way to know "there is a 60% chance of a magnitude 5 or greater earthquake tomorrow," that would be extremely useful in cutting down the number of injuries and damage that earthquakes cause. We care about changing the world in this way because natural disasters are scary but still happen. We cannot prevent them from happening, but if we can inform people ahead of time, that would go a long way into reducing damage/injuries/deaths that earthquakes cause. 
+
+
+Learning Goals:
+One thing we want to learn is how to deal with raw data that has not been cleaned before. Kaggle data-sets that were provided to us in the previous projects were preprocessed for the most part. Learning how to deal with raw form of data will definitely help us develop as a data scientist in the future. Another goal we have for this project is shaping a more specific question that our data can explain. We formulated some questions and predictions we wanted to make but we are still not sure if our dataset can correctly answer and make those predictions. Kaggle competitions were very nicely scaffolded but now we dictate the stories we want to tell. We want to develop more intuition on coming up with a good story and questions as the project progresses.
+
+
+Source of Data:
+Our data will come from http://earthquake.usgs.gov/, which can give us all of the earthquakes from the last 30 days of all magnitudes and locations. We might poll this source multiple times to collect more data, over multiple years rather than just over a month
+
+
+Final Deliverable: 
+We want to have hopefully both a predictive model as well as a visualization based on our model for the final deliverable, in the form of an ipython notebook. As far as specifics go, it is hard to say exactly what we want without delving into the dataset yet.
+
+
+Workflow:
+        We are planning on sticking with ipython notebooks for working in this project. For initial data explorations and model explorations, we are planning on keeping separate notebooks to test our ideas. When we are actually developing a model, we are planning on working together and pair programming so that we will be on the same page and to reduce merge conflicts. Building a pipeline to easily iterate on will definitely make our job easier. 
+
+
+Mid-Project Check-in:
+        By next Friday, we want to some initial data exploration and visualization like we had in the previous projects to help guide us in refining our questions and models. We also want to have an initial predictive model that spits out one variable given the other inputs. For example, given location and time, it predicts the magnitude of the earthquake. Then moving forward we can look into predicting multiple values, and visualizing our model, which would be more useful to 'change the world.'
+
+
+Assessment:
+        One easy assessment of our final deliverable would be checking if we have a model that can predict the magnitude, given a location and time. We also want to have a visual that explains our model and some of our data exploration. One thing we want to focus on is building a pipeline that easily lets us iterate on our progress. Making functions to replace duplicate code can be very helpful and speed up our process. We want to be evaluated on how organized and clean our pipeline is for iteration. Frankly, we are a little lost on how our project can be assessed since we ourselves are not sure what questions to focus on. Maybe we could be assessed on how we developed our story and how we pivoted away from certain ideas as we explore more into our data. As we mentioned in our learning goal, we think that shaping a story from a raw dataset is not an easy task and we want to develop skills doing so.
