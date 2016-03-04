@@ -2,7 +2,7 @@
 
 ### Keenan Zucker and James Jang
 
-I think it is safe to say that we were able to accomplish our goals. We were able to complete initial data exploration and visualizations that helped us understand the dataset that we acquired. We used Basemap to plot all of the earthquake activity on a map, as well as adjust different point's color and size based on magnitude and depth. This gave us a pretty good understanding of where most earthquakes were taking place, and basically mapped out where the fault lines were without looking them up!
+I think it is safe to say that we were able to accomplish our goals. We were able to complete initial data exploration and visualizations that helped us understand the dataset that we acquired. We used Basemap to plot all of the earthquake activity on a map, as well as adjust different point's color and size based on magnitude and depth. This gave us a pretty good understanding of where most earthquakes were taking place, and basically mapped out where the fault lines were without looking them up! Our data explorations are [HERE](https://github.com/keenanzucker/DataScience16CTW/blob/master/James_Exploration.ipynb) and [HERE](https://github.com/keenanzucker/DataScience16CTW/blob/master/Data_Exploration_Keenan.ipynb)
 
 One of the first tasks we accomplished was gathering up a big and relevant dataset. USGS site provided a querying tool that was limited to 20,000 hits per search so we had to manually download the earthquake data. We wrote a script, “download.py” to download all of the data for past 116 years and combined them to make a big csv file. We split our data set into half, one for training and one for testing. 
 
