@@ -7,7 +7,7 @@ I think it is safe to say that we were able to accomplish our goals. We were abl
 One of the first tasks we accomplished was gathering up a big and relevant dataset. USGS site provided a querying tool that was limited to 20,000 hits per search so we had to manually download the earthquake data. We wrote a script, “download.py” to download all of the data for past 116 years and combined them to make a big csv file. We split our data set into half, one for training and one for testing. 
 
 We first used latitude, longitude and depth as predictors with RandomForestClassifier and the model gave us a decent result of around 70 percent when we tested on our test set. Then we feature engineered magType, year, month and hour to improve our result. We were able to train a model that was able to predict the category of the magnitude of the earthquake given "latitude", "longitude", "depth", "magTypeClassified", "year", "month", "hour". When we tested our model on our test set, it was able to achieve a score of 85.5%.
-Our code can be found -> [HERE](https://github.com/keenanzucker/DataScience16CTW/blob/master/Model%20Iteration%201.ipynb)
+Our code can be found -> [HERE](https://github.com/keenanzucker/DataScience16CTW/blob/master/Model_Iteration_1.ipynb)
 
 Our minimum viable product by next Friday will be an earthquake predictive tool that will predict the category of magnitude (minor, light, moderate, strong, major, great), rather than a specific magnitude value, over a period of time and location inputted. 
 
